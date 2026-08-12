@@ -1,13 +1,30 @@
-# Networking-LAB
+<p align="center">
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: none;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
+</p>
 
-This repository contains all my IT005's LAB projects. The labs focus on a range of networking topics, working with network traffic analysis, configuration, protocol study, and device management. The majority of the repository is Shell scripts and configuration files, with accompanying documents and reports.
+<h1 align="center">Introduction to Computer networks - LAB</h1>
 
-## Language Composition
+Lab work and reports for **IT005 – Computer Networks**, University of Information Technology (VNU-HCM). Each lab covers a distinct area of network engineering: traffic capture and analysis, protocol behavior, device configuration, cabling, and wireless security — backed by packet captures, written reports, and configuration scripts.
 
-- **Shell**: 78.8%
-- **HTML**: 21.2%
+<p align="left">
+  <img src="https://img.shields.io/badge/Shell-78.8%25-89e051" alt="Shell 78.8%">
+  <img src="https://img.shields.io/badge/HTML-21.2%25-e34c26" alt="HTML 21.2%">
+</p>
 
-## Folder Structure
+## 1. Overview
+
+| Lab | Topic | Key Artifacts |
+|---|---|---|
+| [LAB-01](./LAB-01) | Wireshark fundamentals | `.pcapng` captures, lab report |
+| [LAB-02](./LAB-02) | HTTP protocol analysis | `.pcapng` captures, report, `HTTP-Web/` project |
+| [LAB-03](./LAB-03) | TCP/UDP protocol behavior, RSTP | `.pcapng` captures, report, video demo |
+| [LAB-04](./LAB-04) | RJ45 cable crimping | Report only (hardware lab) |
+| [LAB-05](./LAB-05) | Network device configuration | Cisco Packet Tracer (`.pka`), router/switch scripts |
+| [LAB-06](./LAB-06) | WPA/WPA2 password scanning | Reports |
+
+## 2. Repository Structure
 
 ```
 Networking-LAB/
@@ -46,23 +63,29 @@ Networking-LAB/
 └── README.md
 ```
 
-## Lab Overview
+## 3. File Types
 
-Each `LAB-0X` folder contains resources for that lab, such as:
-- Network traffic captures (`.pcapng` files)
-- Reports and instructions (`.pdf`, `.docx`)
-- Configuration or script files (`.sh`)
-- Project files (`.pka` for Cisco Packet Tracer)
-- Subfolders for specific projects (e.g., `HTTP-Web`)
+| Extension | Purpose |
+|---|---|
+| `.pcapng` | Packet captures for analysis in Wireshark |
+| `.pdf` / `.docx` | Lab reports and instruction sheets |
+| `.sh` | Device configuration / automation scripts |
+| `.pka` | Cisco Packet Tracer project files |
+| `.mp4` | Recorded demo of lab task |
 
-## Getting Started
+## 4. Getting Started
 
-No code needs to be compiled. You can view reports with any PDF reader, inspect captures with Wireshark, and run script files in a *nix shell.
+No build step is required.
+
+- **Reports** (`.pdf`, `.docx`) — open with any PDF/Word viewer.
+- **Packet captures** (`.pcapng`) — open with [Wireshark](https://www.wireshark.org/).
+- **Scripts** (`.sh`) — run in a `*nix` shell:
+  ```bash
+  chmod +x task3-switch.sh
+  ./task3-switch.sh
+  ```
+- **Packet Tracer files** (`.pka`) — open with [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
 
 ## License
 
-This project is for educational purposes.
-
----
-
-Feel free to explore each lab's folder for more details on specific tasks and learning objectives!
+This repository is shared for educational purposes only.
