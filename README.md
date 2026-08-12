@@ -15,14 +15,14 @@ Lab work and reports for **IT005 – Computer Networks**, University of Informat
 
 ## 1. Overview
 
-| Lab | Topic | Key Artifacts |
-|---|---|---|
-| [LAB-01](./LAB-01) | Wireshark fundamentals | `.pcapng` captures, lab report |
-| [LAB-02](./LAB-02) | HTTP protocol analysis | `.pcapng` captures, report, `HTTP-Web/` project |
-| [LAB-03](./LAB-03) | TCP/UDP protocol behavior, RSTP | `.pcapng` captures, report, video demo |
-| [LAB-04](./LAB-04) | RJ45 cable crimping | Report only (hardware lab) |
-| [LAB-05](./LAB-05) | Network device configuration | Cisco Packet Tracer (`.pka`), router/switch scripts |
-| [LAB-06](./LAB-06) | WPA/WPA2 password scanning | Reports |
+| Lab | Topic | Description | Key Artifacts |
+|---|---|---|---|
+| [LAB-01](./LAB-01) | Wireshark fundamentals | Getting started with Wireshark: capturing live traffic, applying display filters, and reading frame/packet details across the OSI layers. | `.pcapng` captures, lab report |
+| [LAB-02](./LAB-02) | HTTP protocol analysis | Capturing and dissecting HTTP request/response exchanges, inspecting headers and payloads, and following full TCP streams for a web session. | `.pcapng` captures, report, `HTTP-Web/` project |
+| [LAB-03](./LAB-03) | TCP/UDP protocol behavior, RSTP | Comparing TCP's connection-oriented handshake/retransmission behavior against UDP's connectionless model, plus observing RSTP convergence in a switched topology. | `.pcapng` captures, report, video demo |
+| [LAB-04](./LAB-04) | RJ45 cable crimping | Hands-on crimping of straight-through and crossover RJ45 (Cat5e/6) cables, following TIA/EIA-568 wiring standards and verifying continuity. | Report only (hardware lab) |
+| [LAB-05](./LAB-05) | Network device configuration | Configuring routers and switches (VLANs, interfaces, basic routing) in Cisco Packet Tracer, with accompanying automation scripts for repeatable setup. | Cisco Packet Tracer (`.pka`), router/switch scripts |
+| [LAB-06](./LAB-06) | WPA/WPA2 password scanning | Auditing WPA/WPA2-secured wireless networks: capturing handshakes and testing password strength to illustrate common Wi-Fi security weaknesses. | Reports |
 
 ## 2. Repository Structure
 
